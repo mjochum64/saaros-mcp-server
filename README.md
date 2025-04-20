@@ -1,4 +1,4 @@
-# Saaro Search MCP Server
+# Saaro's Search MCP Server
 
 A Model Context Protocol (MCP) server that provides access to the Brave Search API, running as a background thread.
 
@@ -11,18 +11,7 @@ A Model Context Protocol (MCP) server that provides access to the Brave Search A
 
 ## Setup
 
-1. Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-2. Install dependencies:
-```bash
-pip install -e .
-```
-
-3. Set up your Brave Search API key:
+1. Set up your Brave Search API key:
    - Get an API key from [Brave Search API](https://brave.com/search/api/)
    - Create a `.env` file in the project root:
      ```
@@ -61,7 +50,7 @@ The server communicates via stdin/stdout using the JSON-RPC 2.0 protocol. Here a
 
 To run the server:
 ```bash
-python main.py
+uv run main.py
 ```
 
 ## Development
