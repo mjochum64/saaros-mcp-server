@@ -1,0 +1,13 @@
+[project]
+name = "saaros-mcp-server"
+version = "0.1.0"
+description = "A Brave Search MCP server running as a background thread"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = []
+dependencies = [
+    "requests>=2.31.0",
+    "pydantic>=2.6.0",
+    "python-dotenv>=1.0.0",
+]
