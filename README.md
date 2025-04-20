@@ -1,4 +1,4 @@
-# Saaro's Search MCP Server
+# Saaros-MCP-Server
 
 A Model Context Protocol (MCP) server that provides access to the Brave Search API, running as a background thread.
 
